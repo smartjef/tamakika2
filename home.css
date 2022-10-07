@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #00008B;
+}
+.heading {
+
+    margin: 0;
+    color: Black;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background: #00008B;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.02);
+    margin-bottom: 50px;
+    text-align: center;
+    margin-bottom: 27px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* Complex navbar ccs  */
+
+.navbar {
+  margin:0;
+  padding:0;
+  overflow: hidden;
+  position: fixed
+  width: 100%
+}
+
+.navbar a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+.navbar .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .navbar a:not(:first-child) {display: none;}
+  .navbar a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navbar.responsive .icon {
+    position: absolute;
+    right: 0;
+    bottom:0;
+  }
+  .navbar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+}
+
+
+/* THE THREE COLUMNS CSS */
+.column {
+   float: center;
+  display: block;
+  text-align: center;
+  font-size: 17px;
+  text- align: center;
+  align: center;
+  background-color: ;
+  margin: 20px;
+  float: left;
+  width: 28.33%;
+  padding: 20px;
+  color: Black;
+  font-family: 'Ubuntu', sans-serif;
+  margin-top: ;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+
+
+margin-left: ;
+margin-left: ;
+border-radius: 20px
+
+.end {
+    margin: 0;
+    color: Black;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background: #00008B;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.02);
+    margin-bottom: 50px;
+    text-align: center;
+    margin-bottom: 27px;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+
+
+
